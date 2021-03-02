@@ -6,8 +6,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
 const config = {
-  apiKey: "YOUR API KEY",
-  authDomain: "PROJECT_ID.firebaseapp.com",
+  apiKey: "AIzaSyBr1CWUGcXCwMLamJZFkD9XICU1-ON8q9s",
+  authDomain: "lathadh.firebaseapp.com",
 };
 
 @NgModule({
