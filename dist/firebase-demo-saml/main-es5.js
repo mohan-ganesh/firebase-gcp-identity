@@ -815,7 +815,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var config = {
       apiKey: "AIzaSyBr1CWUGcXCwMLamJZFkD9XICU1-ON8q9s",
-      authDomain: "mohanganesh.com"
+      authDomain: "lathadh.firebaseapp.com"
     };
 
     var AppModule = function AppModule() {

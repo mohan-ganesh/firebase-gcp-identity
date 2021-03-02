@@ -373,7 +373,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const config = {
     apiKey: "AIzaSyBr1CWUGcXCwMLamJZFkD9XICU1-ON8q9s",
-    authDomain: "mohanganesh.com",
+    authDomain: "lathadh.firebaseapp.com",
 };
 let AppModule = class AppModule {
 };
