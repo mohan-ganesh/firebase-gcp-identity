@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper\">\n  <div class=\"card\">\n    <h1>Firebase Demo SAML</h1>\n\n    <p class=\"status\">\n      {{ (user$ | async) ? \"Signed in\" : \"Not signed in yet\" }}\n    </p>\n\n    <ul *ngIf=\"user$ | async as user\" class=\"variables\">\n      <li>User email: <strong>{{ user.email }}</strong></li>\n      <li>User ID: <strong>{{ user.uid }}</strong></li>\n    </ul>\n\n    <div class=\"buttons\">\n      <button (click)=\"signInSAML()\">Sign-in with JumpCloud Idp SAML</button>\n      <button (click)=\"signOut()\">Sign-out</button>\n    </div>\n\n    <ul *ngIf=\"samlProfile\" class=\"variables\">\n      <li>First name: <strong>{{ samlProfile.firstName }}</strong></li>\n      <li>Last name: <strong>{{ samlProfile.lastName }}</strong></li>\n      <li>Employee ID: <strong>{{ samlProfile.employeeID }}</strong></li>\n      <li>Custom attribute: <strong>{{ samlProfile['sp-attr1'] }}</strong></li>\n    </ul>\n\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper\">\n  <div class=\"card\">\n    <h1>Firebase Demo SAML-v1</h1>\n\n    <p class=\"status\">\n      {{ (user$ | async) ? \"Signed in\" : \"Not signed in yet\" }}\n    </p>\n\n    <ul *ngIf=\"user$ | async as user\" class=\"variables\">\n      <li>User email: <strong>{{ user.email }}</strong></li>\n      <li>User ID: <strong>{{ user.uid }}</strong></li>\n    </ul>\n\n    <div class=\"buttons\">\n      <button (click)=\"signInSAML()\">Sign-in with JumpCloud Idp SAML</button>\n      <button (click)=\"signOut()\">Sign-out</button>\n    </div>\n\n    <ul *ngIf=\"samlProfile\" class=\"variables\">\n      <li>First name: <strong>{{ samlProfile.firstName }}</strong></li>\n      <li>Last name: <strong>{{ samlProfile.lastName }}</strong></li>\n      <li>Employee ID: <strong>{{ samlProfile.employeeID }}</strong></li>\n      <li>Custom attribute: <strong>{{ samlProfile['sp-attr1'] }}</strong></li>\n    </ul>\n\n  </div>\n</div>");
 
 /***/ }),
 
@@ -373,7 +373,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const config = {
     apiKey: "AIzaSyBr1CWUGcXCwMLamJZFkD9XICU1-ON8q9s",
-    authDomain: "lathadh.firebaseapp.com",
+    authDomain: "mohanganesh.com",
 };
 let AppModule = class AppModule {
 };

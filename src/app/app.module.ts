@@ -7,7 +7,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 
 const config = {
   apiKey: "AIzaSyBr1CWUGcXCwMLamJZFkD9XICU1-ON8q9s",
-  authDomain: "lathadh.firebaseapp.com",
+  authDomain: "mohanganesh.com",
 };
 
 @NgModule({
